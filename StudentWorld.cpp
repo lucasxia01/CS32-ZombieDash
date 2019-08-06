@@ -14,7 +14,7 @@ GameWorld* createStudentWorld(string assetPath)
 #include "Level.h"
 
 StudentWorld::StudentWorld(string assetPath)
-: GameWorld(assetPath), m_flameCount(100), m_vaccineCount(100), m_landmineCount(100), m_citizenCount(0), m_finishedLevel(false)
+: GameWorld(assetPath), m_flameCount(0), m_vaccineCount(0), m_landmineCount(0), m_citizenCount(0), m_finishedLevel(false)
 {
 }
 
